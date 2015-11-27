@@ -1,4 +1,4 @@
-Tango/PyTango 9 insallation report
+Tango/PyTango 9 installation report
 ==================================
 
 This report lists the different issues or warnings I ran into while installing Tango 9 and PyTango 9 on my local computer (64bits 14.04 Ubuntu).
