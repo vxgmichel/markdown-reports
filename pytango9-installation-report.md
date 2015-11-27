@@ -89,8 +89,8 @@ I fixed them by updating the corresponding imports. However it might break compa
 In any case, the changes can be found in the following commit: [fix ipython warning](https://github.com/vxgmichel/PyTango/commit/ac6ce687f9d1c995794b3e9a27ebfc05a0bc272f).
 
 
-PyTango.Database issue
-----------------------
+Database hostname issue
+-----------------------
 
 `itango` also printed the following warning:
 
@@ -100,7 +100,7 @@ Could not access any Database. Make sure:
     - the Database DS is running
 ```
 
-That's because something changed with the host resolution. That's my `tangorc` configuration:
+That's because something changed with the hostname resolution. That's my `tangorc` configuration:
 
 ```bash
 $ cat /etc/tangorc
