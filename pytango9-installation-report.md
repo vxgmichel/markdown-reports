@@ -66,9 +66,9 @@ PyTango build warnings
 
 Here is the different warnings that I got while building PyTango 9 (144 total):
 
-- 114 times: unused variable 'rc'
-- 29 times: using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
-- once: 'auto_ptr' is deprecated (declared at /usr/include/c++/4.8/backward/auto_ptr.h:87)
+- x114: unused variable 'rc'
+- x29: times: using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+- x1: 'auto_ptr' is deprecated (declared at /usr/include/c++/4.8/backward/auto_ptr.h:87)
 
 See the full log [here](pytango9-warnings.log).
 
