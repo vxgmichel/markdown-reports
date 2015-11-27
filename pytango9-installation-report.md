@@ -1,5 +1,5 @@
 Tango/PyTango 9 installation report
-==================================
+===================================
 
 This report lists the different issues or warnings I ran into while installing Tango 9 and PyTango 9 on my local computer (64bits 14.04 Ubuntu).
 
@@ -20,8 +20,8 @@ Tango 9 Configuration
     MYSQL CONNECTION:       OK
 
 
-Tango build warnings:
----------------------
+Tango build warnings
+--------------------
 
 Here is the 4 `unused-variable` warnings I got while building Tango 9:
 
@@ -89,8 +89,8 @@ I fixed them by updating the corresponding imports. However it might break compa
 In any case, the changes can be found in the following commit: [fix ipython warning](https://github.com/vxgmichel/PyTango/commit/ac6ce687f9d1c995794b3e9a27ebfc05a0bc272f).
 
 
-PyTango.Database issue:
------------------------
+PyTango.Database issue
+----------------------
 
 `itango` also printed the following warning:
 
