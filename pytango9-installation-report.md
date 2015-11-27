@@ -3,6 +3,7 @@ Tango/PyTango 9 installation report
 
 This report lists the different issues or warnings I ran into while installing Tango 9 and PyTango 9 on my local computer (64bits 14.04 Ubuntu).
 
+
 Tango 9 Configuration
 ---------------------
 
@@ -17,6 +18,27 @@ Tango 9 Configuration
     MYSQL CLIENT LIB:        -lmysqlclient_r
     MYSQL VERSION:          5.5.43
     MYSQL CONNECTION:       OK
+
+
+Tango build warnings:
+---------------------
+
+Here is the 4 `unused-variable` warnings I got while building Tango 9:
+
+```
+ClassFactory.cpp:2:20: warning: ‘RcsId’ defined but not used [-Wunused-variable]
+ static const char *RcsId = "$Header$";
+                    ^
+DataBaseStateMachine.cpp:2:20: warning: ‘RcsId’ defined but not used [-Wunused-variable]
+ static const char *RcsId = "$Id: DataBaseStateMachine.cpp 27961 2015-05-11 11:04:49Z taurel $";
+                    ^
+main.cpp:2:20: warning: ‘RcsId’ defined but not used [-Wunused-variable]
+ static const char *RcsId = "$Id: main.cpp 26081 2014-07-17 15:02:38Z taurel $";
+                    ^
+DataBaseUtils.cpp:1:20: warning: ‘RcsId’ defined but not used [-Wunused-variable]
+ static const char *RcsId = "$Header$";
+                    ^
+```
 
 
 Error while loading libzmq library
@@ -40,26 +62,6 @@ So I had to run the following command to get it to work:
 $ sudo ln -s /usr/lib/x86_64-linux-gnu/libzmq.so /usr/lib/x86_64-linux-gnu/libzmq.so.3
 ```
 
-
-Tango build warnings:
----------------------
-
-Here is the 4 `unused-variable` warnings I got while building Tango 9:
-
-```
-ClassFactory.cpp:2:20: warning: ‘RcsId’ defined but not used [-Wunused-variable]
- static const char *RcsId = "$Header$";
-                    ^
-DataBaseStateMachine.cpp:2:20: warning: ‘RcsId’ defined but not used [-Wunused-variable]
- static const char *RcsId = "$Id: DataBaseStateMachine.cpp 27961 2015-05-11 11:04:49Z taurel $";
-                    ^
-main.cpp:2:20: warning: ‘RcsId’ defined but not used [-Wunused-variable]
- static const char *RcsId = "$Id: main.cpp 26081 2014-07-17 15:02:38Z taurel $";
-                    ^
-DataBaseUtils.cpp:1:20: warning: ‘RcsId’ defined but not used [-Wunused-variable]
- static const char *RcsId = "$Header$";
-                    ^
-```
 
 PyTango build warnings
 ----------------------
