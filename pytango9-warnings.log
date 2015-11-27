@@ -1,0 +1,943 @@
+package init file 'IPython/config/profile/tango/__init__.py' not found (or not a regular file)
+package init file 'IPython/config/profile/tango/__init__.py' not found (or not a regular file)
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/api_util.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/archive_event_info.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/attr_conf_event_data.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/attribute_alarm_info.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/attribute_dimension.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/attribute_event_info.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/attribute_info.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/attribute_info_ex.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/attribute_proxy.cpp:14:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/attribute_proxy.cpp:14:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/base_types.cpp:14:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/base_types.cpp:14:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/callback.cpp:13:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/callback.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/change_event_info.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/command_info.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/connection.cpp:13:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/connection.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/constants.cpp:14:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/constants.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/data_ready_event_data.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/database.cpp:14:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/database.cpp:14:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/db.cpp:14:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/db.cpp:14:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/dev_command_info.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/dev_error.cpp:14:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_attribute.h:21,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_attribute.cpp:13:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_attribute.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_attribute.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_attribute_config.cpp:13:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_attribute_config.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_attribute_history.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_data.cpp:13:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_data.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_data_history.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_info.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_attribute.h:21,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_proxy.cpp:13:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_attribute.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/device_proxy.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/enums.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/event_data.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/exception.cpp:13:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/exception.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.cpp:13:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/group.cpp:13:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/group.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+/home/vinmic/PyTango9/src/boost/cpp/group.cpp: In function ‘void export_group()’:
+/home/vinmic/PyTango9/src/boost/cpp/group.cpp:198:31: warning: ‘auto_ptr’ is deprecated (declared at /usr/include/c++/4.8/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+     class_<Tango::Group, std::auto_ptr<Tango::Group>, boost::noncopyable >
+                               ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/group_reply.cpp:13:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/group_reply.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/group_reply_list.cpp:13:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/group_reply_list.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/locker_info.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/locking_thread.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/periodic_event_info.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/poll_device.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytango.cpp:20:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytango.cpp:23:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.cpp:14:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.cpp:14:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/time_val.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/to_py.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/to_py.cpp:14:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/version.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/attr.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/attr.cpp:13:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/attr.h:16,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/attr.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/attribute.cpp:14:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/attribute.cpp:14:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/command.cpp:14:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/exception.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/command.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/device_class.cpp:13:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/device_class.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/device_impl.cpp:14:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/device_impl.cpp:14:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/dserver.cpp:15:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/dserver.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/encoded_attribute.cpp:14:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/encoded_attribute.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/log4tango.cpp:14:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/log4tango.cpp:14:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/multi_attribute.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/multi_class_attribute.cpp:13:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/multi_class_attribute.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/subdev.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/tango_util.cpp:14:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/tango_util.cpp:14:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/user_default_attr_prop.cpp:13:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
+In file included from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1781:0,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                 from /home/vinmic/PyTango9/src/boost/cpp/tango_numpy.h:25,
+                 from /home/vinmic/PyTango9/src/boost/cpp/from_py.h:24,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:19,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/wattribute.cpp:14:
+/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /usr/local/include/tango/event.h:41:0,
+                 from /usr/local/include/tango/tango.h:132,
+                 from /home/vinmic/PyTango9/src/boost/cpp/pytgutils.h:15,
+                 from /home/vinmic/PyTango9/src/boost/cpp/server/wattribute.cpp:14:
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::message_t::~message_t()’:
+/usr/local/include/tango/zmq.hpp:100:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_msg_close (&msg);
+                 ^
+/usr/local/include/tango/zmq.hpp: In destructor ‘zmq::context_t::~context_t()’:
+/usr/local/include/tango/zmq.hpp:185:17: warning: unused variable ‘rc’ [-Wunused-variable]
+             int rc = zmq_term (ptr);
+                 ^
