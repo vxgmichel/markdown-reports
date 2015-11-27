@@ -34,7 +34,9 @@ That's because I installed libzmq3-4.0.5 (and libzmq3-dev-4.0.5) that are only p
 
 So I had to run the following command to get it to work:
 
-    $ sudo ln -s /usr/lib/x86_64-linux-gnu/libzmq.so /usr/lib/x86_64-linux-gnu/libzmq.so.3
+```bash
+$ sudo ln -s /usr/lib/x86_64-linux-gnu/libzmq.so /usr/lib/x86_64-linux-gnu/libzmq.so.3
+```
 
 
 PyTango build warnings
@@ -46,7 +48,7 @@ Here is the different warnings that I got:
 - 29 times: using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION [-Wcpp]
 - once: 'auto_ptr' is deprecated (declared at /usr/include/c++/4.8/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
 
-See the full log [here](PyTango9warnings.log).
+See the full log [here](pytango9-warnings.log).
 
 
 IPython warnings
@@ -68,39 +70,47 @@ PyTango.Database issue:
 
 I ran `itango` and got the following warning:
 
-    Could not access any Database. Make sure:
-        - .tangorc, /etc/tangorc or TANGO_HOST environment is defined.
-        - the Database DS is running
+```
+Could not access any Database. Make sure:
+    - .tangorc, /etc/tangorc or TANGO_HOST environment is defined.
+    - the Database DS is running
+```
 
 That's because something changed with the host resolution. That's my `tangorc` configuration:
 
-    $ cat /etc/tangorc
-    TANGO_HOST=localhost:10000
+```bash
+$ cat /etc/tangorc
+TANGO_HOST=localhost:10000
+```
 
 This is what I get with Tango 8:
 
-    >>> PyTango.Database()
-    Database(vinmic-t440p, 10000)
-    >>> PyTango.Database('vinmic-t440p', 10000)
-    Database(vinmic-t440p, 10000)
+```python
+>>> PyTango.Database()
+Database(vinmic-t440p, 10000)
+>>> PyTango.Database('vinmic-t440p', 10000)
+Database(vinmic-t440p, 10000)
+```
 
 And that's what I get with Tango 9:
 
-    >>> PyTango.Database()
-    Database('vinmic-t440p.maxiv.lu.se', 10000)
-    >>> Database('vinmic-t440p.maxiv.lu.se', 10000)
-    Traceback (most recent call last):
-      File "<stdin>", line 1, in <module>
-    PyTango.ConnectionFailed: DevFailed[
-    DevError[
-        desc = TRANSIENT CORBA system exception: TRANSIENT_ConnectFailed
-      origin = Connection::connect
-      reason = API_CorbaException
-    severity = ERR]
+```python
+>>> PyTango.Database()
+Database('vinmic-t440p.maxiv.lu.se', 10000)
+>>> Database('vinmic-t440p.maxiv.lu.se', 10000)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+PyTango.ConnectionFailed: DevFailed[
+DevError[
+   desc = TRANSIENT CORBA system exception: TRANSIENT_ConnectFailed
+ origin = Connection::connect
+  reason = API_CorbaException
+severity = ERR]
 
-    DevError[
-        desc = Failed to connect to database on host vinmic-t440p.maxiv.lu.se with port 10000
-      origin = Connection::connect
-      reason = API_CantConnectToDatabase
-    severity = ERR]
-    ]
+DevError[
+    desc = Failed to connect to database on host vinmic-t440p.maxiv.lu.se with port 10000
+  origin = Connection::connect
+  reason = API_CantConnectToDatabase
+severity = ERR]
+]
+```
