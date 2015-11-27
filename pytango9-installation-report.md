@@ -24,7 +24,9 @@ Error while loading libzmq library
 
 After building and installing Tango 9, I tried to run the starter and ran onto the following error:
 
-    tango_admin: error while loading shared libraries: libzmq.so.3: cannot open shared object file: No such file or directory
+```
+tango_admin: error while loading shared libraries: libzmq.so.3: cannot open shared object file: No such file or directory
+```
 
 That's because I installed libzmq3-4.0.5 (and libzmq3-dev-4.0.5) that are only providing the following file:
 
@@ -39,10 +41,30 @@ $ sudo ln -s /usr/lib/x86_64-linux-gnu/libzmq.so /usr/lib/x86_64-linux-gnu/libzm
 ```
 
 
+Tango build warnings:
+---------------------
+
+Here is the 4 `unused-variable` warnings I got while building Tango 9:
+
+```
+ClassFactory.cpp:2:20: warning: ‘RcsId’ defined but not used [-Wunused-variable]
+ static const char *RcsId = "$Header$";
+                    ^
+DataBaseStateMachine.cpp:2:20: warning: ‘RcsId’ defined but not used [-Wunused-variable]
+ static const char *RcsId = "$Id: DataBaseStateMachine.cpp 27961 2015-05-11 11:04:49Z taurel $";
+                    ^
+main.cpp:2:20: warning: ‘RcsId’ defined but not used [-Wunused-variable]
+ static const char *RcsId = "$Id: main.cpp 26081 2014-07-17 15:02:38Z taurel $";
+                    ^
+DataBaseUtils.cpp:1:20: warning: ‘RcsId’ defined but not used [-Wunused-variable]
+ static const char *RcsId = "$Header$";
+                    ^
+```
+
 PyTango build warnings
 ----------------------
 
-Here is the different warnings that I got:
+Here is the different warnings that I got while building PyTango 9 (144 total):
 
 - 114 times: unused variable 'rc' [-Wunused-variable]
 - 29 times: using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION [-Wcpp]
@@ -68,7 +90,7 @@ In any case, the changes can be found in the following commit: [fix ipython warn
 PyTango.Database issue:
 -----------------------
 
-I ran `itango` and got the following warning:
+`itango` also printed the following warning:
 
 ```
 Could not access any Database. Make sure:
