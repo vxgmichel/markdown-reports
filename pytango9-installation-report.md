@@ -153,7 +153,7 @@ DevError[
 severity = ERR]
 ```
 
-This happens event if the proxies and callbacks are different objects.
+This happens even if the proxies or callbacks are different objects.
 The following example shows how to reproduce the bug:
 
 
