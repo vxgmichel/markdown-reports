@@ -138,3 +138,55 @@ DevError[
 severity = ERR]
 ]
 ```
+
+Subscribing twice to the same attribute
+---------------------------------------
+
+Subscribing twice to the same attribute raises an exception in Tango 9:
+
+```
+DevError[
+    desc = Failed to connect to event channel for device tango://vinmic-t440p.maxiv.lu.se:10000/sys/tg_test/1
+           Corrupted internal map: event callback already exists. Please report bug!
+  origin = EventConsumer::connect_event()
+  reason = API_NotificationServiceFailed
+severity = ERR]
+```
+
+This happens event if the proxies and callbacks are different objects.
+The following example shows how to reproduce the bug:
+
+
+```python
+>>> import PyTango
+>>> d1 = PyTango.DeviceProxy('sys/tg_test/1')
+>>> def f(arg): print arg.attr_value.value
+...
+>>> d1.subscribe_event('State', PyTango.EventType.CHANGE_EVENT, f)
+RUNNING
+1
+>>> d2 = PyTango.DeviceProxy('sys/tg_test/1')
+>>> def g(arg): print arg.attr_value.value
+...
+>>> d2.subscribe_event('State', PyTango.EventType.CHANGE_EVENT, g)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/PyTango/green.py", line 173, in greener
+    ret = submit(fn, self, *args, **kwargs)
+  File "/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/PyTango/green.py", line 83, in synch_submit
+    return get_synch_executor().submit(fn, *args, **kwargs)
+  File "/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/PyTango/green.py", line 75, in submit
+    return fn(*args, **kwargs)
+  File "/home/vinmic/.virtualenvs/tango9/local/lib/python2.7/site-packages/PyTango/device_proxy.py", line 853, in __DeviceProxy__subscribe_event
+    event_id = self.__subscribe_event(attr_name, event_type, cb, filters, stateless, extract_as)
+PyTango.EventSystemFailed: DevFailed[
+DevError[
+    desc = Failed to connect to event channel for device tango://vinmic-t440p.maxiv.lu.se:10000/sys/tg_test/1
+           Corrupted internal map: event callback already exists. Please report bug!
+  origin = EventConsumer::connect_event()
+  reason = API_NotificationServiceFailed
+severity = ERR]
+]
+```
+
+In Tango 8, this last line would simply print `RUNNING` and return `2`.
